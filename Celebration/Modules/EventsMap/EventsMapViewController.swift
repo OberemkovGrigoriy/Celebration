@@ -6,7 +6,6 @@
 //  Copyright © 2019 Gregory Oberemkov. All rights reserved.
 //
 
-import FloatingPanel
 import GoogleMaps
 import UIKit
 
@@ -14,20 +13,12 @@ final class EventsMapViewController: UIViewController {
     
     // MARK: - Properties
     
-    var fpc: FloatingPanelController!
     
     // MARK: - Life cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        fpc = FloatingPanelController()
-        fpc.set(contentViewController: UIViewController())
-        
-        fpc.view.frame = view.frame
-        fpc.addPanel(toParent: self)
-        
-//        view.addSubview(fpc.view)
+
         
         configureInterface()
     }
@@ -41,6 +32,10 @@ final class EventsMapViewController: UIViewController {
         
         let mark1 = GMSMarker(with: MockConstants.events[0], map: map)
         let mark2 = GMSMarker(with: MockConstants.events[1], map: map)
+        
+        if let styleURL = Bundle.main.url(forResource: "MapConfiguration", withExtension: "json") {
+            map.mapStyle = try! GMSMapStyle(contentsOfFileURL: styleURL)
+        }
     }
     
 }

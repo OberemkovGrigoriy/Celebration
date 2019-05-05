@@ -13,6 +13,7 @@
 		446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */; };
 		446EF0E1227F51ED00B81696 /* TestIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0E0227F51ED00B81696 /* TestIconView.swift */; };
 		B43080415E364E25E66247CC /* Pods_Celebration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */; };
+		BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BB213AAB227F70E50028683F /* MapConfiguration.json */; };
 		BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */; };
 		BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */; };
 		BBEF0AA1227E2087006FBEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9F227E2087006FBEA3 /* LaunchScreen.storyboard */; };
@@ -29,6 +30,7 @@
 		446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSMarker+InitWithEvent.swift"; sourceTree = "<group>"; };
 		446EF0E0227F51ED00B81696 /* TestIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIconView.swift; sourceTree = "<group>"; };
 		7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
+		BB213AAB227F70E50028683F /* MapConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapConfiguration.json; sourceTree = "<group>"; };
 		BBEF0A93227E2086006FBEA3 /* Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celebration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		BBF2044D227F24A7006CA419 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB213AAB227F70E50028683F /* MapConfiguration.json */,
 				BBEF0AA2227E2087006FBEA3 /* Info.plist */,
 				BBEF0A9F227E2087006FBEA3 /* LaunchScreen.storyboard */,
 				BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */,
 				BBEF0AA1227E2087006FBEA3 /* LaunchScreen.storyboard in Resources */,
 				BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */,
 			);
