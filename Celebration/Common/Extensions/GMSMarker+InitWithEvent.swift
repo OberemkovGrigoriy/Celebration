@@ -14,9 +14,10 @@ extension GMSMarker {
         
         let coordinate = CLLocationCoordinate2D(latitude: event.latitude, longitude: event.longitude)
         self.init(position: coordinate)
-        self.title = event.title
-        self.snippet = event.description
-        self.icon = UIImage(named: event.icon ?? "pancacke")
+//        self.title = event.title
+//        self.snippet = event.description
+//        self.icon = UIImage(named: event.icon ?? "pancacke")
+        self.iconView = TestIconView()
         self.map = map
     }
     

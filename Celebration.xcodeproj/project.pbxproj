@@ -11,6 +11,7 @@
 		446EF0D9227F3B8E00B81696 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0D8227F3B8E00B81696 /* Event.swift */; };
 		446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DA227F3C9700B81696 /* MockConstants.swift */; };
 		446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */; };
+		446EF0E1227F51ED00B81696 /* TestIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0E0227F51ED00B81696 /* TestIconView.swift */; };
 		B43080415E364E25E66247CC /* Pods_Celebration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */; };
 		BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */; };
 		BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		446EF0D8227F3B8E00B81696 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		446EF0DA227F3C9700B81696 /* MockConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockConstants.swift; sourceTree = "<group>"; };
 		446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSMarker+InitWithEvent.swift"; sourceTree = "<group>"; };
+		446EF0E0227F51ED00B81696 /* TestIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIconView.swift; sourceTree = "<group>"; };
 		7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
 		BBEF0A93227E2086006FBEA3 /* Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celebration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				446EF0D5227F397E00B81696 /* Extensions */,
 				446EF0DA227F3C9700B81696 /* MockConstants.swift */,
 				446EF0D8227F3B8E00B81696 /* Event.swift */,
+				446EF0E0227F51ED00B81696 /* TestIconView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				BBF20455227F268B006CA419 /* JourneyViewController.swift in Sources */,
 				446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */,
 				BBF20457227F26BB006CA419 /* SettingsViewController.swift in Sources */,
+				446EF0E1227F51ED00B81696 /* TestIconView.swift in Sources */,
 				446EF0D9227F3B8E00B81696 /* Event.swift in Sources */,
 				446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */,
 				BBF20459227F275C006CA419 /* AppLaunchingFlow.swift in Sources */,
@@ -460,14 +464,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,14 +484,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
