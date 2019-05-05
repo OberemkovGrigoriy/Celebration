@@ -5,6 +5,9 @@
 ## Build generated
 build/
 DerivedData/
+xcuserdata/
+Pods/
+project.xcworkspace
 
 ## Various settings
 *.pbxuser
