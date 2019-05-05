@@ -1,9 +1,9 @@
 PODS:
-  - FloatingPanel (1.2.3)
-  - GoogleMaps (2.7.0):
-    - GoogleMaps/Maps (= 2.7.0)
-  - GoogleMaps/Base (2.7.0)
-  - GoogleMaps/Maps (2.7.0):
+  - FloatingPanel (1.4.0)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
     - GoogleMaps/Base
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ SPEC REPOS:
     - GoogleMaps
 
 SPEC CHECKSUMS:
-  FloatingPanel: 3b3521b931b58ade0572837ec81c8c7dc638325d
-  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  FloatingPanel: 1449e7c4b9994e394f2de685b2ad6dd93da06333
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
 
 PODFILE CHECKSUM: 9c3d8d9fee8cc4597b92afdb808482e23cefd8a9
 
