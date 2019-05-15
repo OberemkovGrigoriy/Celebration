@@ -21,5 +21,15 @@ extension GMSMarker {
         self.map = map
     }
     
+    @discardableResult
+    convenience init(with eventLocation: EventLocation, map: GMSMapView? = nil) {
+        
+        let location = CLLocationCoordinate2D(latitude: eventLocation.latitude,
+                                              longitude: eventLocation.longitude)
+        self.init(position: location)
+        self.iconView = TestIconView()
+        self.map = map
+    }
+    
 }
 

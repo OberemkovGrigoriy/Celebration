@@ -14,6 +14,7 @@ extension GMSMapView {
         
         let camera = GMSCameraPosition.camera(withLatitude: 33.0, longitude: -79.0, zoom: 2)
         let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+        mapView.settings.rotateGestures = false
         mapView.delegate = delegate
         
         return mapView

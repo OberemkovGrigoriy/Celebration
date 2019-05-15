@@ -12,6 +12,13 @@
 		446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DA227F3C9700B81696 /* MockConstants.swift */; };
 		446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */; };
 		446EF0E1227F51ED00B81696 /* TestIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0E0227F51ED00B81696 /* TestIconView.swift */; };
+		44CABD912284B7460020A449 /* LocalJsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD902284B7460020A449 /* LocalJsonService.swift */; };
+		44CABD942284B8B10020A449 /* WEventsLocalJsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD932284B8B10020A449 /* WEventsLocalJsonService.swift */; };
+		44CABD962284BAB40020A449 /* LocalJsonServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD952284BAB40020A449 /* LocalJsonServiceError.swift */; };
+		44CABD982284C16C0020A449 /* WorldEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 44CABD972284C16C0020A449 /* WorldEvents.json */; };
+		44CABD9B2284CF6B0020A449 /* CountryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9A2284CF6B0020A449 /* CountryKey.swift */; };
+		44CABD9E2288604A0020A449 /* WEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9D2288604A0020A449 /* WEvent.swift */; };
+		44CABDA0228860590020A449 /* EventLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9F228860590020A449 /* EventLocation.swift */; };
 		B43080415E364E25E66247CC /* Pods_Celebration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */; };
 		BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BB213AAB227F70E50028683F /* MapConfiguration.json */; };
 		BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */; };
@@ -29,6 +36,13 @@
 		446EF0DA227F3C9700B81696 /* MockConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockConstants.swift; sourceTree = "<group>"; };
 		446EF0DC227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSMarker+InitWithEvent.swift"; sourceTree = "<group>"; };
 		446EF0E0227F51ED00B81696 /* TestIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIconView.swift; sourceTree = "<group>"; };
+		44CABD902284B7460020A449 /* LocalJsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonService.swift; sourceTree = "<group>"; };
+		44CABD932284B8B10020A449 /* WEventsLocalJsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEventsLocalJsonService.swift; sourceTree = "<group>"; };
+		44CABD952284BAB40020A449 /* LocalJsonServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonServiceError.swift; sourceTree = "<group>"; };
+		44CABD972284C16C0020A449 /* WorldEvents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorldEvents.json; sourceTree = "<group>"; };
+		44CABD9A2284CF6B0020A449 /* CountryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryKey.swift; sourceTree = "<group>"; };
+		44CABD9D2288604A0020A449 /* WEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEvent.swift; sourceTree = "<group>"; };
+		44CABD9F228860590020A449 /* EventLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocation.swift; sourceTree = "<group>"; };
 		7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
 		BB213AAB227F70E50028683F /* MapConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapConfiguration.json; sourceTree = "<group>"; };
 		BBEF0A93227E2086006FBEA3 /* Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celebration.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +90,51 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		44CABD8C2284B2260020A449 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				44CABD972284C16C0020A449 /* WorldEvents.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		44CABD8F2284B7370020A449 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44CABD992284CF4B0020A449 /* WEventsLocalService */,
+				44CABD922284B7780020A449 /* LocalJsonServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44CABD922284B7780020A449 /* LocalJsonServices */ = {
+			isa = PBXGroup;
+			children = (
+				44CABD902284B7460020A449 /* LocalJsonService.swift */,
+				44CABD952284BAB40020A449 /* LocalJsonServiceError.swift */,
+			);
+			path = LocalJsonServices;
+			sourceTree = "<group>";
+		};
+		44CABD992284CF4B0020A449 /* WEventsLocalService */ = {
+			isa = PBXGroup;
+			children = (
+				44CABD9C228860340020A449 /* Entites */,
+				44CABD932284B8B10020A449 /* WEventsLocalJsonService.swift */,
+				44CABD9A2284CF6B0020A449 /* CountryKey.swift */,
+			);
+			path = WEventsLocalService;
+			sourceTree = "<group>";
+		};
+		44CABD9C228860340020A449 /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				44CABD9D2288604A0020A449 /* WEvent.swift */,
+				44CABD9F228860590020A449 /* EventLocation.swift */,
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
 		46B72AD7594E971DE3F82FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +164,7 @@
 		BBEF0A95227E2086006FBEA3 /* Celebration */ = {
 			isa = PBXGroup;
 			children = (
+				44CABD8F2284B7370020A449 /* Services */,
 				446EF0D2227F33D200B81696 /* Common */,
 				BBF2044E227F2541006CA419 /* Modules */,
 				BBF2044D227F24A7006CA419 /* Resources */,
@@ -125,6 +185,7 @@
 		BBF2044D227F24A7006CA419 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				44CABD8C2284B2260020A449 /* Jsons */,
 				BB213AAB227F70E50028683F /* MapConfiguration.json */,
 				BBEF0AA2227E2087006FBEA3 /* Info.plist */,
 				BBEF0A9F227E2087006FBEA3 /* LaunchScreen.storyboard */,
@@ -239,6 +300,7 @@
 			files = (
 				BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */,
 				BBEF0AA1227E2087006FBEA3 /* LaunchScreen.storyboard in Resources */,
+				44CABD982284C16C0020A449 /* WorldEvents.json in Resources */,
 				BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CABDA0228860590020A449 /* EventLocation.swift in Sources */,
+				44CABD962284BAB40020A449 /* LocalJsonServiceError.swift in Sources */,
 				BBF20453227F25A5006CA419 /* EventsMapViewController.swift in Sources */,
 				BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */,
+				44CABD912284B7460020A449 /* LocalJsonService.swift in Sources */,
+				44CABD9B2284CF6B0020A449 /* CountryKey.swift in Sources */,
+				44CABD942284B8B10020A449 /* WEventsLocalJsonService.swift in Sources */,
 				BBF20455227F268B006CA419 /* JourneyViewController.swift in Sources */,
 				446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */,
 				BBF20457227F26BB006CA419 /* SettingsViewController.swift in Sources */,
@@ -328,6 +395,7 @@
 				446EF0D9227F3B8E00B81696 /* Event.swift in Sources */,
 				446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */,
 				BBF20459227F275C006CA419 /* AppLaunchingFlow.swift in Sources */,
+				44CABD9E2288604A0020A449 /* WEvent.swift in Sources */,
 				446EF0D7227F39A000B81696 /* GMSMapView+InitialMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,14 +536,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,14 +556,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

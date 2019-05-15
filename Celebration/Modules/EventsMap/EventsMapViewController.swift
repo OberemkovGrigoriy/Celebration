@@ -11,8 +11,13 @@ import UIKit
 
 final class EventsMapViewController: UIViewController {
     
+    // MARK: - Nested Types
+    
+    
     // MARK: - Properties
     
+    private let eventsStorage = WEventsLocalJsonServiceImp.shared
+    private var markers: [String: GMSMarker] = [:]
     
     // MARK: - Life cycle
     
@@ -21,21 +26,33 @@ final class EventsMapViewController: UIViewController {
 
         
         configureInterface()
+        
     }
     
     // MARK: - Configure interface
     
     private func configureInterface() {
         
+        configureMap()
+    }
+    
+    
+    private func configureMap() {
+        
         let map = GMSMapView.initial(delegate: self)
         view = map
-        
-        let mark1 = GMSMarker(with: MockConstants.events[0], map: map)
-        let mark2 = GMSMarker(with: MockConstants.events[1], map: map)
         
         if let styleURL = Bundle.main.url(forResource: "MapConfiguration", withExtension: "json") {
             map.mapStyle = try! GMSMapStyle(contentsOfFileURL: styleURL)
         }
+        
+//        eventsStorage.worldEvents.forEach { event in
+//            
+//            guard let initialLocation = event.zoomLocations[2] else { return }
+//            let marker = GMSMarker(with: initialLocation, map: map)
+//            markers[event.name] = marker
+//        }
+        
     }
     
 }
@@ -45,7 +62,20 @@ final class EventsMapViewController: UIViewController {
 extension EventsMapViewController: GMSMapViewDelegate {
     
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
-        print(position)
+        
+        print("POSITION \(position.zoom)")
+//        if position.zoom > 2.3 && position.zoom < 2.32 {
+//
+//            for key in CountryKey.allCases {
+//                guard let event = eventsStorage.worldEvent(for: key) else { continue }
+//                guard let marker = markers[event.name] else { continue }
+//                guard let locationOnZoom5 = event.zoomLocations[5] else { return }
+//                marker.position = CLLocationCoordinate2D(latitude: locationOnZoom5.latitude,
+//                                                         longitude: locationOnZoom5.longitude)
+//            }
+//
+//        }
+        
     }
     
     func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
@@ -53,7 +83,6 @@ extension EventsMapViewController: GMSMapViewDelegate {
     }
     
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
-        print(marker.snippet)
         return true
     }
     

@@ -9,7 +9,7 @@
 struct MockConstants {
     
     static let events: [Event] = [
-        Event(Country: "Russia", Town: "Moskow", latitude: 55.75, longitude: 37.6, icon: "pancake", title: "Масленница", description: "Христианский праздник"),
+        Event(Country: "Russia", Town: "Moskow", latitude: 55.7501021192183, longitude: 37.5998305901885, icon: "pancake", title: "Масленница", description: "Христианский праздник"),
         Event(Country: "Ukraine", Town: "Kiev", latitude: 50.4, longitude: 30.5, icon: "ukraine", title: "День победы", description: "День установки флага Украины на крыше Рейхстага"),
     ]
     

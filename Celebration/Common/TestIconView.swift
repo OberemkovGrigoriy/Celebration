@@ -13,7 +13,7 @@ final class TestIconView: UIView {
     override func layoutSubviews() {
         
         backgroundColor = .red
-        frame.size = CGSize(width: 100, height: 100)
+        frame.size = CGSize(width: 1, height: 30)
     }
     
 }
