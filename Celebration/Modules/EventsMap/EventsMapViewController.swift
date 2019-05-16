@@ -46,12 +46,10 @@ final class EventsMapViewController: UIViewController {
             map.mapStyle = try! GMSMapStyle(contentsOfFileURL: styleURL)
         }
         
-//        eventsStorage.worldEvents.forEach { event in
-//            
-//            guard let initialLocation = event.zoomLocations[2] else { return }
-//            let marker = GMSMarker(with: initialLocation, map: map)
-//            markers[event.name] = marker
-//        }
+        eventsStorage.worldEvents.forEach { event in
+            guard let marker = GMSMarker(with: event, map: map) else { return }
+            markers[event.country] = marker
+        }
         
     }
     
@@ -63,18 +61,6 @@ extension EventsMapViewController: GMSMapViewDelegate {
     
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
         
-        print("POSITION \(position.zoom)")
-//        if position.zoom > 2.3 && position.zoom < 2.32 {
-//
-//            for key in CountryKey.allCases {
-//                guard let event = eventsStorage.worldEvent(for: key) else { continue }
-//                guard let marker = markers[event.name] else { continue }
-//                guard let locationOnZoom5 = event.zoomLocations[5] else { return }
-//                marker.position = CLLocationCoordinate2D(latitude: locationOnZoom5.latitude,
-//                                                         longitude: locationOnZoom5.longitude)
-//            }
-//
-//        }
         
     }
     

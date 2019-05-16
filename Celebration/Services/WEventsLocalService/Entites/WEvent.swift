@@ -8,11 +8,11 @@
 
 struct WEvent: Codable {
     
-    let name: String
+    let country: String
     let zoomLocations: [Int: EventLocation]
     
     enum CodingKeys: String, CodingKey {
-        case name
+        case country
         case zoomLocations = "ZoomLocations"
     }
 }

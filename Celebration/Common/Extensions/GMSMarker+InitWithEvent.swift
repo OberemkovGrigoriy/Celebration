@@ -10,14 +10,13 @@ import GoogleMaps
 
 extension GMSMarker {
     
-    convenience init(with event: Event, map: GMSMapView? = nil) {
+    convenience init?(with event: WEvent, map: GMSMapView? = nil) {
         
-        let coordinate = CLLocationCoordinate2D(latitude: event.latitude, longitude: event.longitude)
+        guard let zoom2 = event.zoomLocations[2] else { return nil }
+        let coordinate = CLLocationCoordinate2D(latitude: zoom2.latitude, longitude: zoom2.longitude)
         self.init(position: coordinate)
-//        self.title = event.title
-//        self.snippet = event.description
-//        self.icon = UIImage(named: event.icon ?? "pancacke")
-        self.iconView = TestIconView()
+        self.title = event.country
+        self.snippet = event.country
         self.map = map
     }
     

@@ -1,1536 +1,1536 @@
 {
     "ABK": {
-        "name": "Abkhazia",
+        "country": "Abkhazia",
         "ZoomLocations": {
             "2": { "latitude": 43.1260777748877, "longitude": 41.19728174060583 }
         }
     },
     "AUS": {
-        "name": "Australia",
+        "country": "Australia",
         "ZoomLocations": {
             "2": { "latitude": 23.22387622887974, "longitude": 134.29896645247936 }
         }
     },
     "AUT": {
-        "name": "Austria",
+        "country": "Austria",
         "ZoomLocations": {
             "2": { "latitude": 47.86279385089013, "longitude": 14.1593461856246 }
         }
     },
     "AZE": {
-        "name": "Azerbaijan",
+        "country": "Azerbaijan",
         "ZoomLocations": {
             "2": { "latitude": 40.53585961739455, "longitude": 47.90131364017725 }
         }
     },
     "ALB": {
-        "name": "Albania",
+        "country": "Albania",
         "ZoomLocations": {
             "2": { "latitude": 41.173661813868506, "longitude": 20.062937177717686 }
         }
     },
     "DZA": {
-        "name": "Algeria",
+        "country": "Algeria",
         "ZoomLocations": {
             "2": { "latitude": 28.922782817624878, "longitude": 2.640536203980446 }
         }
     },
     "VIR": {
-        "name": "United States Virgin Islands",
+        "country": "United States Virgin Islands",
         "ZoomLocations": {
             "2": { "latitude": 17.766014238211984, "longitude": -64.76817481219769 }
         }
     },
     "ASM": {
-        "name": "American Samoa",
+        "country": "American Samoa",
         "ZoomLocations": {
             "2": { "latitude": -14.246897103110172, "longitude": -170.70554427802563 }
         }
     },
     "AIA": {
-        "name": "Anguilla",
+        "country": "Anguilla",
         "ZoomLocations": {
             "2": { "latitude": 18.310771192677826, "longitude": -63.07795666158199 }
         }
     },
     "AGO": {
-        "name": "Angola",
+        "country": "Angola",
         "ZoomLocations": {
             "2": { "latitude": -11.662557102832304, "longitude": 17.447419613599777 }
         }
     },
     "AND": {
-        "name": "Andorra",
+        "country": "Andorra",
         "ZoomLocations": {
             "2": { "latitude": 42.64528585537919, "longitude": 1.5565801039338112 }
         }
     },
     "ATA": {
-        "name": "Antarctica",
+        "country": "Antarctica",
         "ZoomLocations": {
             "2": { "latitude": -74.82193762705919, "longitude": 21.484264880418777 }
         }
     },
     "ATG": {
-        "name": "Antigua and Barbuda",
+        "country": "Antigua and Barbuda",
         "ZoomLocations": {
             "2": { "latitude": 17.087399975628713, "longitude": -61.81681919842958 }
         }
     },
     "ARG": {
-        "name": "Argentina",
+        "country": "Argentina",
         "ZoomLocations": {
             "2": { "latitude": -34.77900349908346, "longitude": -65.22784039378166 }
         }
     },
     "ARM": {
-        "name": "Armenia",
+        "country": "Armenia",
         "ZoomLocations": {
             "2": { "latitude": 40.426428795787075, "longitude": 44.577883668243885 }
         }
     },
     "ABV": {
-        "name": "Aruba",
+        "country": "Aruba",
         "ZoomLocations": {
             "2": { "latitude": 12.547899784599338, "longitude": -69.98244244605303 }
         }
     },
     "BHS": {
-        "name": "Bahamas",
+        "country": "Bahamas",
         "ZoomLocations": {
             "2": { "latitude": 24.844950726866347, "longitude": -78.05975262075663 }
         }
     },
     "BGD": {
-        "name": "Bangladesh",
+        "country": "Bangladesh",
         "ZoomLocations": {
             "2": { "latitude": 24.529525260467153, "longitude": 90.09455256164074 }
         }
     },
     "BRB": {
-        "name": "Barbados",
+        "country": "Barbados",
         "ZoomLocations": {
             "2": { "latitude": 13.2492750969931, "longitude": -59.581760577857494 }
         }
     },
     "BHR": {
-        "name": "Bahrain",
+        "country": "Bahrain",
         "ZoomLocations": {
             "2": { "latitude": 26.114704064257744, "longitude": 50.53306125104427 }
         }
     },
     "BLZ": {
-        "name": "Belize",
+        "country": "Belize",
         "ZoomLocations": {
             "2": { "latitude": 17.034688288351603, "longitude": -88.72787587344646 }
         }
     },
     "BLR": {
-        "name": "Belarus",
+        "country": "Belarus",
         "ZoomLocations": {
             "2": { "latitude": 53.521019533823726, "longitude": 27.985186502337456 }
         }
     },
     "BEL": {
-        "name": "Belgium",
+        "country": "Belgium",
         "ZoomLocations": {
             "2": { "latitude": 50.68905540821295, "longitude": 4.64506097137928 }
         }
     },
     "BEN": {
-        "name": "Benin",
+        "country": "Benin",
         "ZoomLocations": {
             "2": { "latitude": 9.994622801850845, "longitude": 2.3158853128552437 }
         }
     },
     "BMU": {
-        "name": "Bermuda",
+        "country": "Bermuda",
         "ZoomLocations": {
             "2": { "latitude": 32.301214, "longitude": -64.756872 }
         }
     },
     "BGR": {
-        "name": "Bulgaria",
+        "country": "Bulgaria",
         "ZoomLocations": {
             "2": { "latitude": 42.758084599151054, "longitude": 25.22375777363777 }
         }
     },
     "BOL": {
-        "name": "Bolivia",
+        "country": "Bolivia",
         "ZoomLocations": {
             "2": { "latitude": -16.281687, "longitude": -64.132794 }
         }
     },
     "BES": {
-        "name": "Carribean Netherlands (Бонэйр)",
+        "country": "Carribean Netherlands (Бонэйр)",
         "ZoomLocations": {
             "2": { "latitude": 12.184719, "longitude": -68.289982 }
         }
     },
     "BIH": {
-        "name": "Bosnia and Herzegovina",
+        "country": "Bosnia and Herzegovina",
         "ZoomLocations": {
             "2": { "latitude": 44.818687579590325, "longitude": 17.73530714213848 }
         }
     },
     "BWA": {
-        "name": "Botswana",
+        "country": "Botswana",
         "ZoomLocations": {
             "2": { "latitude": -21.63509695281883, "longitude": 23.89030795544386 }
         }
     },
     "BRA": {
-        "name": "Brazil",
+        "country": "Brazil",
         "ZoomLocations": {
             "2": { "latitude": -7.537795694891898, "longitude": -55.886899307370186 }
         }
     },
     "IOT": {
-        "name": "British Indian Ocean Territory",
+        "country": "British Indian Ocean Territory",
         "ZoomLocations": {
             "2": { "latitude": -5.346836, "longitude": 71.847418 }
         }
     },
     "VGB": {
-        "name": "British Virgin Islands",
+        "country": "British Virgin Islands",
         "ZoomLocations": {
             "2": { "latitude": 18.678449522947815, "longitude": -64.64179951697588 }
         }
     },
     "BRN": {
-        "name": "Brunei Darussalam",
+        "country": "Brunei Darussalam",
         "ZoomLocations": {
             "2": { "latitude": 4.509922, "longitude": 114.686601 }
         }
     },
     "BVT": {
-        "name": "Bouvet Island",
+        "country": "Bouvet Island",
         "ZoomLocations": {
             "2": { "latitude": -54.422109, "longitude": 3.356510 }
         }
     },
     "BFA": {
-        "name": "Burkina Faso",
+        "country": "Burkina Faso",
         "ZoomLocations": {
             "2": { "latitude": 12.218343, "longitude": -1.736363 }
         }
     },
     "BDI": {
-        "name": "Burundi",
+        "country": "Burundi",
         "ZoomLocations": {
             "2": { "latitude": -3.0824776532478, "longitude": 29.89905528724194 }
         }
     },
     "BTN": {
-        "name": "Bhutan",
+        "country": "Bhutan",
         "ZoomLocations": {
             "2": { "latitude": 27.646908122320824, "longitude": 90.38776461035013 }
         }
     },
     "VUT": {
-        "name": "Vanuatu",
+        "country": "Vanuatu",
         "ZoomLocations": {
             "2": { "latitude": -15.172908136434646, "longitude": 166.8396046757698 }
         }
     },
     "VAT": {
-        "name": "Vatican",
+        "country": "Vatican",
         "ZoomLocations": {
             "2": { "latitude": 41.902185, "longitude": 12.455707 }
         }
     },
     "GBR": {
-        "name": "United Kingdom",
+        "country": "United Kingdom",
         "ZoomLocations": {
             "2": { "latitude": 55.739464522810124, "longitude": -2.855614498257637 }
         }
     },
     "HUN": {
-        "name": "Hungary",
+        "country": "Hungary",
         "ZoomLocations": {
             "2": { "latitude": 47.135747, "longitude": 19.385329 }
         }
     },
     "VEN": {
-        "name": "Venezuela",
+        "country": "Venezuela",
         "ZoomLocations": {
-            "2": { "latitude": 7.652368731746572, "longitude": -66.25857777893543 },
+            "2": { "latitude": 7.652368731746572, "longitude": -66.25857777893543 }
         }
     },
     "TLS": {
-        "name": "East Timor",
+        "country": "East Timor",
         "ZoomLocations": {
             "2": { "latitude": -8.753948, "longitude": 126.109048 }
         }
     },
     "VNM": {
-        "name": "Vietnam",
+        "country": "Vietnam",
         "ZoomLocations": {
             "2": { "latitude": 14.85481440036748, "longitude": 108.16037122160196 }
         }
     },
     "GAB": {
-        "name": "Gabon",
+        "country": "Gabon",
         "ZoomLocations": {
             "2": { "latitude": -0.20600561370448003, "longitude": 11.761420145630836 }
         }
     },
     "HTI": {
-        "name": "Haiti",
+        "country": "Haiti",
         "ZoomLocations": {
             "2": { "latitude": 19.102788422135713, "longitude": -72.68736809492111 }
         }
     },
     "GUY": {
-        "name": "Guyana",
+        "country": "Guyana",
         "ZoomLocations": {
             "2": { "latitude": 5.165603473209301, "longitude": -58.93382839858531 }
         }
     },
     "GMB": {
-        "name": "The Gambia",
+        "country": "The Gambia",
         "ZoomLocations": {
             "2": { "latitude": 13.59568033274902, "longitude": -15.381623469293118 }
         }
     },
     "GHA": {
-        "name": "Ghana",
+        "country": "Ghana",
         "ZoomLocations": {
             "2": { "latitude": 8.320860191424108, "longitude": -1.2987832725048065 }
         }
     },
     "GLP": {
-        "name": "Guadeloupe",
+        "country": "Guadeloupe",
         "ZoomLocations": {
             "2": { "latitude": 16.30861149968484, "longitude": -61.5866045281291 }
         }
     },
     "GTM": {
-        "name": "Guatemala",
+        "country": "Guatemala",
         "ZoomLocations": {
             "2": { "latitude": 15.992006107850958, "longitude": -90.45338552445173 }
         }
     },
     "GIN": {
-        "name": "Guienea",
+        "country": "Guienea",
         "ZoomLocations": {
             "2": { "latitude": 10.769655249107176, "longitude": -11.028654389083385 }
         }
     },
     "GNB": {
-        "name": "Guienea-Bissau",
+        "country": "Guienea-Bissau",
         "ZoomLocations": {
             "2": { "latitude": 11.798830, "longitude": -15.293647 }
         }
     },
     "DEU": {
-        "name": "Germany",
+        "country": "Germany",
         "ZoomLocations": {
             "2": { "latitude": 51.38394647064402, "longitude": 10.36346085369587 }
         }
     },
     "GUI": {
-        "name": "Guinea",
+        "country": "Guinea",
         "ZoomLocations": {
             "2": { "latitude": 10.799284307271131, "longitude": -11.000131778419018 }
         }
     },
     "GUB": {
-        "name": "Guinea-Bissau",
+        "country": "Guinea-Bissau",
         "ZoomLocations": {
             "2": { "latitude": 12.334002396379878, "longitude": -14.967450834810734 }
         }
     },
     "GGY": {
-        "name": "Guernsey",
+        "country": "Guernsey",
         "ZoomLocations": {
             "2": { "latitude": 49.463448, "longitude": -2.580483 }
         }
     },
     "GIB": {
-        "name": "Gibraltar",
+        "country": "Gibraltar",
         "ZoomLocations": {
             "2": { "latitude": 36.142730, "longitude": -5.355603 }
         }
     },
     "HND": {
-        "name": "Honduras",
+        "country": "Honduras",
         "ZoomLocations": {
             "2": { "latitude": 15.162728119930318, "longitude": -87.08027768880129 }
         }
     },
     "HKG": {
-        "name": "Hong Kong",
+        "country": "Hong Kong",
         "ZoomLocations": {
             "2": { "latitude": 22.277428, "longitude": 114.162416 }
         }
     },
     "GRD": {
-        "name": "Grenada",
+        "country": "Grenada",
         "ZoomLocations": {
             "2": { "latitude": 12.163885335342203, "longitude": -61.70943461358548 }
         }
     },
     "GRL": {
-        "name": "Greenland",
+        "country": "Greenland",
         "ZoomLocations": {
             "2": { "latitude": 74.10000047597293, "longitude": -39.84500717371702 }
         }
     },
     "GRC": {
-        "name": "Greece",
+        "country": "Greece",
         "ZoomLocations": {
             "2": { "latitude": 39.773313826514425, "longitude": 22.4935794621706 }
         }
     },
     "GEO": {
-        "name": "Georgia",
+        "country": "Georgia",
         "ZoomLocations": {
             "2": { "latitude": 42.3187379674691, "longitude": 43.4900464117527 }
         }
     },
     "GUM": {
-        "name": "Guam",
+        "country": "Guam",
         "ZoomLocations": {
             "2": { "latitude": 13.388441, "longitude": 144.794931 }
         }
     },
     "DNK": {
-        "name": "Denmark",
+        "country": "Denmark",
         "ZoomLocations": {
             "2": { "latitude": 55.84426947829682, "longitude": 9.998998269438744 }
         }
     },
     "COG": {
-        "name": "Republic of the Congo",
+        "country": "Republic of the Congo",
         "ZoomLocations": {
             "2": { "latitude": -0.1767093494501292, "longitude": 15.14517903327942 }
         }
     },
     "COD": {
-        "name": "Democratic Republic of the Congo",
+        "country": "Democratic Republic of the Congo",
         "ZoomLocations": {
             "2": { "latitude": -1.914885163925927, "longitude": 23.594140112400055 }
         }
     },
     "JEY": {
-        "name": "Jersey",
+        "country": "Jersey",
         "ZoomLocations": {
             "2": { "latitude": 49.213048, "longitude": -2.125522 }
         }
     },
     "DJI": {
-        "name": "Djibouti",
+        "country": "Djibouti",
         "ZoomLocations": {
             "2": { "latitude": 11.973425251277202, "longitude": 42.588869109749794 }
         }
     },
     "DMA": {
-        "name": "Dominica",
+        "country": "Dominica",
         "ZoomLocations": {
             "2": { "latitude": 15.489846146346066, "longitude": -61.37666467577219 }
         }
     },
     "DOM": {
-        "name": "Dominican Republic",
+        "country": "Dominican Republic",
         "ZoomLocations": {
             "2": { "latitude": 19.10632528992404, "longitude": -70.24929642677307 }
         }
     },
     "ESW": {
-        "name": "Eswatini",
+        "country": "Eswatini",
         "ZoomLocations": {
             "2": { "latitude": -26.376895052406994, "longitude": 31.47838622331619 }
         }
     },
     "EGY": {
-        "name": "Egypt",
+        "country": "Egypt",
         "ZoomLocations": {
             "2": { "latitude": 27.286675579991744, "longitude": 29.817421585321423 }
         }
     },
     "ZMB": {
-        "name": "Zambia",
+        "country": "Zambia",
         "ZoomLocations": {
             "2": { "latitude": -14.506570, "longitude": 27.856793 }
         }
     },
     "ESH": {
-        "name": "Western Sahara",
+        "country": "Western Sahara",
         "ZoomLocations": {
             "2": { "latitude": 25.216745321942348, "longitude": -13.134902268648148 }
         }
     },
     "ZWE": {
-        "name": "Zimbabwe",
+        "country": "Zimbabwe",
         "ZoomLocations": {
             "2": { "latitude": -18.50724317517814, "longitude": 29.764971993863583 }
         }
     },
     "ISR": {
-        "name": "Israel",
+        "country": "Israel",
         "ZoomLocations": {
             "2": { "latitude": 31.21382254964709, "longitude": 34.81740854680538 }
         }
     },
     "IND": {
-        "name": "India",
+        "country": "India",
         "ZoomLocations": {
             "2": { "latitude": 23.297279649314593, "longitude": 79.46973994374275 }
         }
     },
     "IDN": {
-        "name": "Indonesia",
+        "country": "Indonesia",
         "ZoomLocations": {
             "2": { "latitude": -3.8262690476169454, "longitude": 122.36425817012785 }
         }
     },
     "JOR": {
-        "name": "Jordan",
+        "country": "Jordan",
         "ZoomLocations": {
             "2": { "latitude": 31.71470329206457, "longitude": 36.74837540835142 }
         }
     },
     "IRQ": {
-        "name": "Iraq",
+        "country": "Iraq",
         "ZoomLocations": {
             "2": { "latitude": 33.40015173778652, "longitude": 42.99588091671467 }
         }
     },
     "IRN": {
-        "name": "Iran",
+        "country": "Iran",
         "ZoomLocations": {
             "2": { "latitude": 32.61204624164644, "longitude": 54.271471202373505 }
         }
     },
     "IRL": {
-        "name": "Ireland",
+        "country": "Ireland",
         "ZoomLocations": {
             "2": { "latitude": 53.730739418447705, "longitude": -9.591772221028805 }
         }
     },
     "ISL": {
-        "name": "Iceland",
+        "country": "Iceland",
         "ZoomLocations": {
             "2": { "latitude": 65.58901400335756, "longitude": -18.475820794701576 }
         }
     },
     "ESP": {
-        "name": "Spain",
+        "country": "Spain",
         "ZoomLocations": {
             "2": { "latitude": 40.123549170763276, "longitude": -3.431212194263935 }
         }
     },
     "ITA": {
-        "name": "Italy",
+        "country": "Italy",
         "ZoomLocations": {
             "2": { "latitude": 43.35759505549778, "longitude": 12.424539662897587 }
         }
     },
     "YEM": {
-        "name": "Yemen",
+        "country": "Yemen",
         "ZoomLocations": {
             "2": { "latitude": 16.219928572129554, "longitude": 47.5814139470458 }
         }
     },
     "CPV": {
-        "name": "Cape Verde",
+        "country": "Cape Verde",
         "ZoomLocations": {
             "2": { "latitude": 15.083296, "longitude": -23.624677 }
         }
     },
     "KAZ": {
-        "name": "Kazakhstan",
+        "country": "Kazakhstan",
         "ZoomLocations": {
             "2": { "latitude": 48.136207, "longitude": 67.153550 }
         }
     },
     "CYM": {
-        "name": "Cayman Islands",
+        "country": "Cayman Islands",
         "ZoomLocations": {
             "2": { "latitude": 19.44078513944493, "longitude": -81.241599842906 }
         }
     },
     "KHM": {
-        "name": "Cambodia",
+        "country": "Cambodia",
         "ZoomLocations": {
             "2": { "latitude": 12.564393, "longitude": 104.825812 }
         }
     },
     "CMR": {
-        "name": "Cameroon",
+        "country": "Cameroon",
         "ZoomLocations": {
             "2": { "latitude": 6.026981894777016, "longitude": 12.7120640873909 }
         }
     },
     "CAN": {
-        "name": "Canada",
+        "country": "Canada",
         "ZoomLocations": {
             "2": { "latitude": 60.78700885944207, "longitude": -111.98109045624733 }
         }
     },
     "QAT": {
-        "name": "Qatar",
+        "country": "Qatar",
         "ZoomLocations": {
             "2": { "latitude": 25.406292188322414, "longitude": 51.18237644433975 }
         }
     },
     "KEN": {
-        "name": "Kenya",
+        "country": "Kenya",
         "ZoomLocations": {
             "2": { "latitude": 1.0221738504580882, "longitude": 37.89935823529959 }
         }
     },
     "CYP": {
-        "name": "Cyprus",
+        "country": "Cyprus",
         "ZoomLocations": {
             "2": { "latitude": 35.128223, "longitude": 33.149774 }
         }
     },
     "KGZ": {
-        "name": "Kyrgyzstan",
+        "country": "Kyrgyzstan",
         "ZoomLocations": {
             "2": { "latitude": 41.892642, "longitude": 74.670572 }
         }
     },
     "KIR": {
-        "name": "Kiribati",
+        "country": "Kiribati",
         "ZoomLocations": {
             "2": { "latitude": -1.474328, "longitude": 175.066566 }
         }
     },
     "CHN": {
-        "name": "China",
+        "country": "China",
         "ZoomLocations": {
             "2": { "latitude": 34.996414707284885, "longitude": 103.69908917695284 }
         }
     },
     "PRK": {
-        "name": "North Korea",
+        "country": "North Korea",
         "ZoomLocations": {
             "2": { "latitude": 40.411639668497834, "longitude": 127.13683906942606 }
         }
     },
     "CCK": {
-        "name": "Cocos (Keeling) Islands",
+        "country": "Cocos (Keeling) Islands",
         "ZoomLocations": {
             "2": { "latitude": -12.203400, "longitude": 96.903794 }
         }
     },
     "COL": {
-        "name": "Colombia",
+        "country": "Colombia",
         "ZoomLocations": {
             "2": { "latitude": 4.180698958503873, "longitude": -73.25341511517763 }
         }
     },
     "COM": {
-        "name": "Comoros",
+        "country": "Comoros",
         "ZoomLocations": {
             "2": { "latitude": -11.724319, "longitude": 43.351061 }
         }
     },
     "KOR": {
-        "name": "South Korea",
+        "country": "South Korea",
         "ZoomLocations": {
             "2": { "latitude": 36.83949120640163, "longitude": 127.81277954578401 }
         }
     },
     "KOS": {
-        "name": "Kosovo",
+        "country": "Kosovo",
         "ZoomLocations": {
             "2": { "latitude": 42.76921485522574, "longitude": 20.903433859348297 }
         }
     },
     "CRI": {
-        "name": "Costa Rica",
+        "country": "Costa Rica",
         "ZoomLocations": {
             "2": { "latitude": 10.734861486388505, "longitude": -84.40695248544216 }
         }
     },
     "CIV": {
-        "name": "Cote d'lvoire (Ivory Coast)",
+        "country": "Cote d'lvoire (Ivory Coast)",
         "ZoomLocations": {
             "2": { "latitude": 8.079214079916795, "longitude": -5.747605785727501 }
         }
     },
     "CUB": {
-        "name": "Cuba",
+        "country": "Cuba",
         "ZoomLocations": {
             "2": { "latitude": 21.73745494825656, "longitude": -78.96756671369076 }
         }
     },
     "KWT": {
-        "name": "Kuwait",
+        "country": "Kuwait",
         "ZoomLocations": {
             "2": { "latitude": 29.312949, "longitude": 47.752159 }
         }
     },
     "CUW": {
-        "name": "Curacao",
+        "country": "Curacao",
         "ZoomLocations": {
             "2": { "latitude": 12.216231818257663, "longitude": -69.00197267532349 }
         }
     },
     "LAO": {
-        "name": "Laos",
+        "country": "Laos",
         "ZoomLocations": {
             "2": { "latitude": 19.87913499617771, "longitude": 102.52238664776087 }
         }
     },
     "LVA": {
-        "name": "Latvia",
+        "country": "Latvia",
         "ZoomLocations": {
             "2": { "latitude": 57.24891552308808, "longitude": 26.01957857608795 }
         }
     },
     "LSO": {
-        "name": "Lesotho",
+        "country": "Lesotho",
         "ZoomLocations": {
             "2": { "latitude": -29.419388262393802, "longitude": 28.226699978113174 }
         }
     },
     "LBR": {
-        "name": "Liberia",
+        "country": "Liberia",
         "ZoomLocations": {
             "2": { "latitude": 6.600746654256594, "longitude": -9.380691088736057 }
         }
     },
     "LBN": {
-        "name": "Lebanon",
+        "country": "Lebanon",
         "ZoomLocations": {
             "2": { "latitude": 34.47101425320883, "longitude": 35.85960164666176 }
         }
     },
     "LBY": {
-        "name": "Libya",
+        "country": "Libya",
         "ZoomLocations": {
             "2": { "latitude": 27.483520804840808, "longitude": 17.456246428191662 }
         }
     },
     "LTU": {
-        "name": "Lithuania",
+        "country": "Lithuania",
         "ZoomLocations": {
             "2": { "latitude": 55.88895613784326, "longitude": 23.73661234974861 }
         }
     },
     "LIE": {
-        "name": "Liechtenstein",
+        "country": "Liechtenstein",
         "ZoomLocations": {
-            "2": { "latitude": 47.158135, "longitude": 9.549792 },
+            "2": { "latitude": 47.158135, "longitude": 9.549792 }
         }
     },
     "LUX": {
-        "name": "Luxembourg",
+        "country": "Luxembourg",
         "ZoomLocations": {
             "2": { "latitude": 49.815317, "longitude": 6.086365 }
         }
     },
     "MUS": {
-        "name": "Mauritius",
+        "country": "Mauritius",
         "ZoomLocations": {
             "2": { "latitude": -20.324815, "longitude": 57.566262 }
         }
     },
     "MRT": {
-        "name": "Mauritania",
+        "country": "Mauritania",
         "ZoomLocations": {
             "2": { "latitude": 20.80903328678018, "longitude": -10.432441234588623 }
         }
     },
     "MDG": {
-        "name": "Madagascar",
+        "country": "Madagascar",
         "ZoomLocations": {
             "2": { "latitude": -20.582884312655544, "longitude": 46.069207303225994 }
         }
     },
     "MYT": {
-        "name": "Mayotte",
+        "country": "Mayotte",
         "ZoomLocations": {
             "2": { "latitude": -12.914333, "longitude": 45.166241 }
         }
     },
     "MAC": {
-        "name": "Macau",
+        "country": "Macau",
         "ZoomLocations": {
             "2": { "latitude": 22.200020, "longitude": 113.545731 }
         }
     },
     "MKD": {
-        "name": "Macedonia",
+        "country": "Macedonia",
         "ZoomLocations": {
             "2": { "latitude": 41.605594, "longitude": 21.750414 }
         }
     },
     "MWI": {
-        "name": "Malawi",
+        "country": "Malawi",
         "ZoomLocations": {
             "2": { "latitude": -13.2092124456413, "longitude": 34.24460235983133 }
         }
     },
     "MYS": {
-        "name": "Malaysia",
+        "country": "Malaysia",
         "ZoomLocations": {
             "2": { "latitude": 4.046596622143317, "longitude": 101.98429629206657 }
         }
     },
     "MLI": {
-        "name": "Mali",
+        "country": "Mali",
         "ZoomLocations": {
             "2": { "latitude": 18.411898258441262, "longitude": -1.8510440737009046 }
         }
     },
     "MDV": {
-        "name": "Maldives",
+        "country": "Maldives",
         "ZoomLocations": {
             "2": { "latitude": 4.214899, "longitude": 73.541641 }
         }
     },
     "MLT": {
-        "name": "Malta",
+        "country": "Malta",
         "ZoomLocations": {
             "2": { "latitude": 35.903046, "longitude": 14.413972 }
         }
     },
     "MAR": {
-        "name": "Morocco",
+        "country": "Morocco",
         "ZoomLocations": {
             "2": { "latitude": 32.32823461854312, "longitude": -6.18166733533144 }
         }
     },
     "MTQ": {
-        "name": "Martinique",
+        "country": "Martinique",
         "ZoomLocations": {
             "2": { "latitude": 14.730507671964801, "longitude": -61.048272773623474 }
         }
     },
     "MHL": {
-        "name": "Marshal Islands",
+        "country": "Marshal Islands",
         "ZoomLocations": {
             "2": { "latitude": 7.114112, "longitude": 171.075208 }
         }
     },
     "MEX": {
-        "name": "Mexico",
+        "country": "Mexico",
         "ZoomLocations": {
             "2": { "latitude": 24.688555685163056, "longitude": -102.62018635869026 }
         }
     },
     "MEL": {
-        "name": "Melilla",
+        "country": "Melilla",
         "ZoomLocations": {
             "2": { "latitude": 35.291365, "longitude": -2.940267 }
         }
     },
     "MOZ": {
-        "name": "Mozambique",
+        "country": "Mozambique",
         "ZoomLocations": {
             "2": { "latitude": -16.765726784383112, "longitude": 35.2595529332757 }
         }
     },
     "MDA": {
-        "name": "Moldova",
+        "country": "Moldova",
         "ZoomLocations": {
             "2": { "latitude": 47.822693227032154, "longitude": 28.386869095265865 }
         }
     },
     "MCO": {
-        "name": "Monaco",
+        "country": "Monaco",
         "ZoomLocations": {
             "2": { "latitude": 43.737335, "longitude": 7.427657 }
         }
     },
     "MNG": {
-        "name": "Mongolia",
+        "country": "Mongolia",
         "ZoomLocations": {
             "2": { "latitude": 47.200882965929765, "longitude": 103.07794153690338 }
         }
     },
     "MSR": {
-        "name": "Montserrat",
+        "country": "Montserrat",
         "ZoomLocations": {
             "2": { "latitude": 16.79390356526674, "longitude": -62.20941815525293 }
         }
     },
     "MMR": {
-        "name": "Myanmar (Burma)",
+        "country": "Myanmar (Burma)",
         "ZoomLocations": {
             "2": { "latitude": 21.907377972545987, "longitude": 96.48687321692705 }
         }
     },
     "NKR": {
-        "name": "Nagorno-Karabakh Republic (Armenia)",
+        "country": "Nagorno-Karabakh Republic (Armenia)",
         "ZoomLocations": {
             "2": { "latitude": 40.636692, "longitude": 44.587906 }
         }
     },
     "NAM": {
-        "name": "Namibia",
+        "country": "Namibia",
         "ZoomLocations": {
             "2": { "latitude": -22.174211, "longitude": 17.099063 }
         }
     },
     "NRU": {
-        "name": "Nauru",
+        "country": "Nauru",
         "ZoomLocations": {
             "2": { "latitude": -0.526453, "longitude": 166.931701 }
         }
     },
     "NPL": {
-        "name": "Nepal",
+        "country": "Nepal",
         "ZoomLocations": {
             "2": { "latitude": 28.459084308079063, "longitude": 83.92182938754559 }
         }
     },
     "NER": {
-        "name": "Niger",
+        "country": "Niger",
         "ZoomLocations": {
             "2": { "latitude": 17.369607, "longitude": 9.373758 }
         }
     },
     "NGA": {
-        "name": "Nigeria",
+        "country": "Nigeria",
         "ZoomLocations": {
             "2": { "latitude": 10.124522736116774, "longitude": 8.023151345551014 }
         }
     },
     "NLD": {
-        "name": "Netherlands",
+        "country": "Netherlands",
         "ZoomLocations": {
             "2": { "latitude": 52.22780927636763, "longitude": 5.697537995874882 }
         }
     },
     "NIC": {
-        "name": "Nicaragua",
+        "country": "Nicaragua",
         "ZoomLocations": {
             "2": { "latitude": 13.278163673945214, "longitude": -85.03882963210344 }
         }
     },
     "NIU": {
-        "name": "Niue",
+        "country": "Niue",
         "ZoomLocations": {
-            "2": { "latitude": -19.054237, "longitude": -169.855502 },
+            "2": { "latitude": -19.054237, "longitude": -169.855502 }
         }
     },
     "NZL": {
-        "name": "New Zealand",
+        "country": "New Zealand",
         "ZoomLocations": {
             "2": { "latitude": -42.0945312474972, "longitude": 172.3202508687973 }
         }
     },
     "NCL": {
-        "name": "New Caledonia",
+        "country": "New Caledonia",
         "ZoomLocations": {
             "2": { "latitude": -21.210289650983682, "longitude": 165.48168875277042 }
         }
     },
     "NOR": {
-        "name": "Norway",
+        "country": "Norway",
         "ZoomLocations": {
             "2": { "latitude": 64.570968, "longitude": 11.966377 }
         }
     },
     "ARE": {
-        "name": "United Arab Emirates",
+        "country": "United Arab Emirates",
         "ZoomLocations": {
             "2": { "latitude": 23.602744, "longitude": 54.057083 }
         }
     },
     "OMN": {
-        "name": "Oman",
+        "country": "Oman",
         "ZoomLocations": {
             "2": { "latitude": 20.924803831725285, "longitude": 56.15375462919474 }
         }
     },
     "NFK": {
-        "name": "Norfolk Island",
+        "country": "Norfolk Island",
         "ZoomLocations": {
             "2": { "latitude": -29.034940, "longitude": 167.940177 }
         }
     },
     "CXR": {
-        "name": "Christmas Island",
+        "country": "Christmas Island",
         "ZoomLocations": {
             "2": { "latitude": -39.688587, "longitude": 143.829413 }
         }
     },
     "SHN": {
-        "name": "Saint Helena",
+        "country": "Saint Helena",
         "ZoomLocations": {
             "2": { "latitude": -16.002696, "longitude": -5.739911 }
         }
     },
     "HMD": {
-        "name": "Heard Island and McDonald Islands",
+        "country": "Heard Island and McDonald Islands",
         "ZoomLocations": {
             "2": { "latitude": -53.103130, "longitude": 73.533736 }
         }
     },
     "COK": {
-        "name": "Cook Islands",
+        "country": "Cook Islands",
         "ZoomLocations": {
             "2": { "latitude": -21.240368, "longitude": -159.779656 }
         }
     },
     "PCN": {
-        "name": "Pitcrairn Islands",
+        "country": "Pitcrairn Islands",
         "ZoomLocations": {
             "2": { "latitude": -25.068137, "longitude": -130.102913 }
         }
     },
     "TCA": {
-        "name": "The Turks and Caicos Islands",
+        "country": "The Turks and Caicos Islands",
         "ZoomLocations": {
             "2": { "latitude": 22.1018856916338, "longitude": -71.71568658202887 }
         }
     },
     "WLF": {
-        "name": "Wallis and Futuna",
+        "country": "Wallis and Futuna",
         "ZoomLocations": {
             "2": { "latitude": -14.132251153000755, "longitude": -178.13998226076365 }
         }
     },
     "PAK": {
-        "name": "Pakistan",
+        "country": "Pakistan",
         "ZoomLocations": {
             "2": { "latitude": 29.801824, "longitude": 69.280320 }
         }
     },
     "PLW": {
-        "name": "Palau",
+        "country": "Palau",
         "ZoomLocations": {
             "2": { "latitude": 7.418226, "longitude": 134.548172 }
         }
     },
     "PSE": {
-        "name": "Palestinian Territories",
+        "country": "Palestinian Territories",
         "ZoomLocations": {
             "2": { "latitude": 32.082590, "longitude": 35.280318 }
         }
     },
     "PAN": {
-        "name": "Panama",
+        "country": "Panama",
         "ZoomLocations": {
             "2": { "latitude": 62.967639846265506, "longitude": -80.21738223731518 }
         }
     },
     "PNG": {
-        "name": "Papua New Guinea",
+        "country": "Papua New Guinea",
         "ZoomLocations": {
             "2": { "latitude": -6.071379002021827, "longitude": 144.24129467457533 }
         }
     },
     "PRY": {
-        "name": "Paraguay",
+        "country": "Paraguay",
         "ZoomLocations": {
             "2": { "latitude": -22.699268049945047, "longitude": -58.452298790216446 }
         }
     },
     "PER": {
-        "name": "Peru",
+        "country": "Peru",
         "ZoomLocations": {
             "2": { "latitude": -9.899151813066462, "longitude": -75.89657619595528 }
         }
     },
     "POL": {
-        "name": "Poland",
+        "country": "Poland",
         "ZoomLocations": {
             "2": { "latitude": 53.24295243064348, "longitude": 18.65303199738264 }
         }
     },
     "PRT": {
-        "name": "Portugal",
+        "country": "Portugal",
         "ZoomLocations": {
             "2": { "latitude": 55.739464522810124, "longitude": -2.855614498257637 }
         }
     },
     "TRN": {
-        "name": "Transnistria, Moldava, Moldovia",
+        "country": "Transnistria, Moldava, Moldovia",
         "ZoomLocations": {
             "2": { "latitude": 47.202356, "longitude": 28.466093 }
         }
     },
     "PRI": {
-        "name": "Puerto Rico",
+        "country": "Puerto Rico",
         "ZoomLocations": {
             "2": { "latitude": 18.3123906949969, "longitude": -66.66883405297995 }
         }
     },
     "REU": {
-        "name": "Reunion",
+        "country": "Reunion",
         "ZoomLocations": {
             "2": { "latitude": -21.112400, "longitude": 55.554602 }
         }
     },
     "RUS": {
-        "name": "Russia",
+        "country": "Russia",
         "ZoomLocations": {
             "2": { "latitude": 62.967639846265506, "longitude": 98.81873276084661 }
         }
     },
     "RWA": {
-        "name": "Rwanda",
+        "country": "Rwanda",
         "ZoomLocations": {
             "2": { "latitude": -1.741017411993107, "longitude": 29.89905528724194 }
         }
     },
     "ROU": {
-        "name": "Romania",
+        "country": "Romania",
         "ZoomLocations": {
             "2": { "latitude": 46.082530574985675, "longitude": 24.839617162942886 }
         }
     },
     "SLV": {
-        "name": "El Salvador",
+        "country": "El Salvador",
         "ZoomLocations": {
             "2": { "latitude": 14.008496308170393, "longitude": -88.68534542620182 }
         }
     },
     "WSM": {
-        "name": "Samoa",
+        "country": "Samoa",
         "ZoomLocations": {
             "2": { "latitude": -13.616546, "longitude": -172.450178 }
         }
     },
     "SMR": {
-        "name": "San Marino",
+        "country": "San Marino",
         "ZoomLocations": {
             "2": { "latitude": 43.932420, "longitude": 12.448754 }
         }
     },
     "STP": {
-        "name": "Sao Tome and Principe",
+        "country": "Sao Tome and Principe",
         "ZoomLocations": {
             "2": { "latitude": 1.614897, "longitude": 7.397662 }
         }
     },
     "SAU": {
-        "name": "Saudi Arabia",
+        "country": "Saudi Arabia",
         "ZoomLocations": {
             "2": { "latitude": 22.848295, "longitude": 45.725533 }
         }
     },
     "SWZ": {
-        "name": "Swaziland (Estanavi)",
+        "country": "Swaziland (Estanavi)",
         "ZoomLocations": {
             "2": { "latitude": -26.582713, "longitude": 31.502004 }
         }
     },
     "MNP": {
-        "name": "Nothern Mariana Island",
+        "country": "Nothern Mariana Island",
         "ZoomLocations": {
             "2": { "latitude": 15.045753, "longitude": 145.691710 }
         }
     },
     "NCR": {
-        "name": "Nothers Cyprus",
+        "country": "Nothers Cyprus",
         "ZoomLocations": {
             "2": { "latitude": 35.262194, "longitude": 33.710808 }
         }
     },
     "SYC": {
-        "name": "Seychelles",
+        "country": "Seychelles",
         "ZoomLocations": {
             "2": { "latitude": -4.698966, "longitude": 55.498574 }
         }
     },
     "BEL": {
-        "name": "Belgium",
+        "country": "Belgium",
         "ZoomLocations": {
             "2": { "latitude": 50.510867, "longitude": 4.863748 }
         }
     },
     "SPM": {
-        "name": "Saint-Pierre and Miquelon",
+        "country": "Saint-Pierre and Miquelon",
         "ZoomLocations": {
             "2": { "latitude": 47.040039, "longitude": -56.324764 }
         }
     },
     "SEN": {
-        "name": "Senegal",
+        "country": "Senegal",
         "ZoomLocations": {
             "2": { "latitude": 14.51180462283269, "longitude": -14.518989510834219 }
         }
     },
     "VCT": {
-        "name": "Saint Vincent and the Grenadines",
+        "country": "Saint Vincent and the Grenadines",
         "ZoomLocations": {
             "2": { "latitude": 13.41754107740997, "longitude": -61.19980819523335 }
         }
     },
     "KNA": {
-        "name": "Saint Kitts and Nevis",
+        "country": "Saint Kitts and Nevis",
         "ZoomLocations": {
             "2": { "latitude": 17.442672262531243, "longitude": -62.75098733603954 }
         }
     },
     "LCA": {
-        "name": "Saint Lucia",
+        "country": "Saint Lucia",
         "ZoomLocations": {
             "2": { "latitude": 13.960684845672333, "longitude": -60.98205540329218 }
         }
     },
     "SRB": {
-        "name": "Serbia",
+        "country": "Serbia",
         "ZoomLocations": {
             "2": { "latitude": 44.33138390172785, "longitude": 20.80499980598688 }
         }
     },
     "CEU": {
-        "name": "Ceuta (Город Испании??)",
+        "country": "Ceuta (Город Испании??)",
         "ZoomLocations": {
             "2": { "latitude": 35.891914, "longitude": -5.325402 }
         }
     },
     "SGP": {
-        "name": "Singapore",
+        "country": "Singapore",
         "ZoomLocations": {
             "2": { "latitude": 1.318308, "longitude": 103.829670 }
         }
     },
     "SYR": {
-        "name": "Syria",
+        "country": "Syria",
         "ZoomLocations": {
             "2": { "latitude": 35.25228211360706, "longitude": 38.46504986286163 }
         }
     },
     "SVK": {
-        "name": "Slovakia",
+        "country": "Slovakia",
         "ZoomLocations": {
             "2": { "latitude": 48.899970846997505, "longitude": 19.36662968248129 }
         }
     },
     "SVN": {
-        "name": "Slovenia",
+        "country": "Slovenia",
         "ZoomLocations": {
             "2": { "latitude": 46.21970087813528, "longitude": 14.62176136672497 }
         }
     },
     "SLB": {
-        "name": "Solomon Islands",
+        "country": "Solomon Islands",
         "ZoomLocations": {
             "2": { "latitude": -9.468553667449017, "longitude": 160.1629088446498 }
         }
     },
     "SOM": {
-        "name": "Somalia",
+        "country": "Somalia",
         "ZoomLocations": {
             "2": { "latitude": 3.424518146019411, "longitude": 45.13713397085667 }
         }
     },
     "SDN": {
-        "name": "Sudan",
+        "country": "Sudan",
         "ZoomLocations": {
             "2": { "latitude": 16.869811866845023, "longitude": 30.331719070672985 }
         }
     },
     "SUR": {
-        "name": "Suriname",
+        "country": "Suriname",
         "ZoomLocations": {
             "2": { "latitude": 4.342785654097626, "longitude": -56.13573756068945 }
         }
     },
     "USA": {
-        "name": "United States",
+        "country": "United States",
         "ZoomLocations": {
             "2": { "latitude": 41.40931692227596, "longitude": -101.55775900930166 }
         }
     },
     "SLE": {
-        "name": "Sierra Leone",
+        "country": "Sierra Leone",
         "ZoomLocations": {
             "2": { "latitude": 8.931761093677915, "longitude": -11.891351714730263 }
         }
     },
     "TJK": {
-        "name": "Tajikistan",
+        "country": "Tajikistan",
         "ZoomLocations": {
             "2": { "latitude": 39.042197, "longitude": 70.848150 }
         }
     },
     "THA": {
-        "name": "Thailand",
+        "country": "Thailand",
         "ZoomLocations": {
             "2": { "latitude": 16.378309, "longitude": 101.307704 }
         }
     },
     "THA": {
-        "name": "Taiwan",
+        "country": "Taiwan",
         "ZoomLocations": {
             "2": { "latitude": 23.660180142445242, "longitude": 121.17906846106054 }
         }
     },
     "TZA": {
-        "name": "Tanzania",
+        "country": "Tanzania",
         "ZoomLocations": {
             "2": { "latitude": -5.796647779992278, "longitude": 34.85056936740875 }
         }
     },
     "TGO": {
-        "name": "Togo",
+        "country": "Togo",
         "ZoomLocations": {
             "2": { "latitude": 9.018098420638951, "longitude": 0.9459735453128815 }
         }
     },
     "TKL": {
-        "name": "Tokelau",
+        "country": "Tokelau",
         "ZoomLocations": {
             "2": { "latitude": -9.375171, "longitude": -171.232655 }
         }
     },
     "TON": {
-        "name": "Tonga",
+        "country": "Tonga",
         "ZoomLocations": {
             "2": { "latitude": -21.093921902159064, "longitude": -175.19910972565413 }
         }
     },
     "TTO": {
-        "name": "Trinidad and Tobago",
+        "country": "Trinidad and Tobago",
         "ZoomLocations": {
             "2": { "latitude": 10.573463048962612, "longitude": -61.30440965294838 }
         }
     },
     "TUV": {
-        "name": "Tuvalu",
+        "country": "Tuvalu",
         "ZoomLocations": {
             "2": { "latitude": -8.528489, "longitude": 179.185674 }
         }
     },
     "TUN": {
-        "name": "Tunisia",
+        "country": "Tunisia",
         "ZoomLocations": {
             "2": { "latitude": 34.35762810146332, "longitude": 9.514979906380177 }
         }
     },
     "TKM": {
-        "name": "Turkmenistan",
+        "country": "Turkmenistan",
         "ZoomLocations": {
             "2": { "latitude": 39.194141, "longitude": 59.178550 }
         }
     },
     "TUR": {
-        "name": "Turkey",
+        "country": "Turkey",
         "ZoomLocations": {
             "2": { "latitude": 39.543257986063104, "longitude": 35.36185976117849 }
         }
     },
     "UGA": {
-        "name": "Uganda",
+        "country": "Uganda",
         "ZoomLocations": {
             "2": { "latitude": 1.8798338387334126, "longitude": 32.32911854982376 }
         }
     },
     "UZB": {
-        "name": "Uzbekistan",
+        "country": "Uzbekistan",
         "ZoomLocations": {
             "2": { "latitude": 41.765066, "longitude": 63.150118 }
         }
     },
     "UKR": {
-        "name": "Ukraine",
+        "country": "Ukraine",
         "ZoomLocations": {
             "2": { "latitude": 49.34647412679987, "longitude": 31.26896135509014 }
         }
     },
     "URY": {
-        "name": "Uruguay",
+        "country": "Uruguay",
         "ZoomLocations": {
             "2": { "latitude": -32.40738025702673, "longitude": -56.01664077490568 }
         }
     },
     "FRO": {
-        "name": "Faroe Islands",
+        "country": "Faroe Islands",
         "ZoomLocations": {
             "2": { "latitude": 62.016315, "longitude": -6.851936 }
         }
     },
     "FSM": {
-        "name": "Federated States of Micronesia",
+        "country": "Federated States of Micronesia",
         "ZoomLocations": {
             "2": { "latitude": 6.847918, "longitude": 158.216471 }
         }
     },
     "FJI": {
-        "name": "Fiji",
+        "country": "Fiji",
         "ZoomLocations": {
             "2": { "latitude": -17.845965, "longitude": 178.349837 }
         }
     },
     "PHL": {
-        "name": "Philippines",
+        "country": "Philippines",
         "ZoomLocations": {
             "2": { "latitude": 13.083075182040659, "longitude": 122.88680545985699 }
         }
     },
     "FIN": {
-        "name": "Finland",
+        "country": "Finland",
         "ZoomLocations": {
             "2": { "latitude": 62.40739012303306, "longitude": 26.207485757768154 }
         }
     },
     "FLK": {
-        "name": "Falkland Islands (Malvinas)",
+        "country": "Falkland Islands (Malvinas)",
         "ZoomLocations": {
             "2": { "latitude": -51.56705730584678, "longitude": -58.77643268555403 }
         }
     },
     "FRA": {
-        "name": "France",
+        "country": "France",
         "ZoomLocations": {
             "2": { "latitude": 47.085886663697174, "longitude": 2.43988249450922 }
         }
     },
     "GUF": {
-        "name": "French Guiana",
+        "country": "French Guiana",
         "ZoomLocations": {
             "2": { "latitude": 5.185527500714742, "longitude": -52.88760591298342 }
         }
     },
     "PYF": {
-        "name": "French Polinesya",
+        "country": "French Polinesya",
         "ZoomLocations": {
             "2": { "latitude": -17.494560434336886, "longitude": -149.43864427506924 }
         }
     },
     "ATF": {
-        "name": "French Southern Territories",
+        "country": "French Southern Territories",
         "ZoomLocations": {
             "2": { "latitude": -49.324643, "longitude": 69.510523 }
         }
     },
     "HRV": {
-        "name": "Croatia",
+        "country": "Croatia",
         "ZoomLocations": {
             "2": { "latitude": 45.30807691536665, "longitude": 14.797172471880911 }
         }
     },
     "CAF": {
-        "name": "Central Africal Republic",
+        "country": "Central Africal Republic",
         "ZoomLocations": {
             "2": { "latitude": 7.590921525612247, "longitude": 20.445455387234688 }
         }
     },
     "TCD": {
-        "name": "Chad",
+        "country": "Chad",
         "ZoomLocations": {
             "2": { "latitude": 15.339023, "longitude": 18.724699 }
         }
     },
     "MNE": {
-        "name": "Montenegro",
+        "country": "Montenegro",
         "ZoomLocations": {
             "2": { "latitude": 43.0471446369218, "longitude": 19.24507163465023 }
         }
     },
     "CZE": {
-        "name": "Czechia",
+        "country": "Czechia",
         "ZoomLocations": {
             "2": { "latitude": 49.71765344337934, "longitude": 15.218158923089504 }
         }
     },
     "CHL": {
-        "name": "Chile",
+        "country": "Chile",
         "ZoomLocations": {
             "2": { "latitude": -26.11703657129702, "longitude": -70.32514628022909 }
         }
     },
     "CHK": {
-        "name": "Chuuk",
+        "country": "Chuuk",
         "ZoomLocations": {
             "2": { "latitude": 7.355793, "longitude": 151.619864 }
         }
     },
     "CHE": {
-        "name": "Switzerland",
+        "country": "Switzerland",
         "ZoomLocations": {
             "2": { "latitude": 47.03908128911957, "longitude": 7.916476875543594 }
         }
     },
     "SWE": {
-        "name": "Sweden",
+        "country": "Sweden",
         "ZoomLocations": {
             "2": { "latitude": 64.90025820971366, "longitude": 16.459253914654255 }
         }
     },
     "SJM": {
-        "name": "Svalbard and Jan Mayen",
+        "country": "Svalbard and Jan Mayen",
         "ZoomLocations": {
             "2": { "latitude": 78.308415, "longitude": 17.321342 }
         }
     },
     "LKA": {
-        "name": "Sri Lanka",
+        "country": "Sri Lanka",
         "ZoomLocations": {
             "2": { "latitude": 7.745521, "longitude": 80.606846 }
         }
     },
     "ECU": {
-        "name": "Ecuador",
+        "country": "Ecuador",
         "ZoomLocations": {
             "2": { "latitude": -0.9856346980158815, "longitude": -78.47640294581652 }
         }
     },
     "GNQ": {
-        "name": "Equatorial Guinea",
+        "country": "Equatorial Guinea",
         "ZoomLocations": {
             "2": { "latitude": 2.0650810030334994, "longitude": 10.394021272659302 }
         }
     },
     "Eri": {
-        "name": "Eriteria",
+        "country": "Eriteria",
         "ZoomLocations": {
             "2": { "latitude": 15.713599446334397, "longitude": 38.78859870135784 }
         }
     },
     "EST": {
-        "name": "Estonia",
+        "country": "Estonia",
         "ZoomLocations": {
             "2": { "latitude": 58.952885333635535, "longitude": 25.75411733239889 }
         }
     },
     "ETH": {
-        "name": "Ethiopia",
+        "country": "Ethiopia",
         "ZoomLocations": {
             "2": { "latitude": 9.20711254988819, "longitude": 39.53842531889677 }
         }
     },
     "ZAF": {
-        "name": "Republic of South Africa",
+        "country": "Republic of South Africa",
         "ZoomLocations": {
             "2": { "latitude": -30.439778768393133, "longitude": 24.15687695145607 }
         }
     },
     "SGS": {
-        "name": "South Georgia and the South Sandwich Islands",
+        "country": "South Georgia and the South Sandwich Islands",
         "ZoomLocations": {
             "2": { "latitude": -54.180062323647654, "longitude": -36.725139766931534 }
         }
     },
     "SOS": {
-        "name": "South Ossetia",
+        "country": "South Ossetia",
         "ZoomLocations": {
             "2": { "latitude": 42.351153, "longitude": 44.085739 }
         }
     },
     "SSU": {
-        "name": "South Sudan",
+        "country": "South Sudan",
         "ZoomLocations": {
             "2": { "latitude": 7.142861, "longitude": 30.244614 }
         }
     },
     "JAM": {
-        "name": "Jamaica",
+        "country": "Jamaica",
         "ZoomLocations": {
             "2": { "latitude": 18.23354940436815, "longitude": -77.34925758093596 }
         }
     },
     "YAP": {
-        "name": "Yap",
+        "country": "Yap",
         "ZoomLocations": {
-            "2": { "latitude": 9.541594, , "longitude": 138.162723 }
+            "2": { "latitude": 9.541594, "longitude": 138.162723 }
         }
     },
     "JPN": {
-        "name": "Japan",
+        "country": "Japan",
         "ZoomLocations": {
             "2": { "latitude": 36.072979763043584, "longitude": 137.929028570652 }
         }
