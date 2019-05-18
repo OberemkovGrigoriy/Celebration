@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400974770A47447DE40CB4B8 /* Pods_Celebration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520727D0442FEAAC6F5B13F4 /* Pods_Celebration.framework */; };
 		446EF0D7227F39A000B81696 /* GMSMapView+InitialMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0D6227F39A000B81696 /* GMSMapView+InitialMap.swift */; };
 		446EF0D9227F3B8E00B81696 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0D8227F3B8E00B81696 /* Event.swift */; };
 		446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EF0DA227F3C9700B81696 /* MockConstants.swift */; };
@@ -19,7 +20,6 @@
 		44CABD9B2284CF6B0020A449 /* CountryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9A2284CF6B0020A449 /* CountryKey.swift */; };
 		44CABD9E2288604A0020A449 /* WEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9D2288604A0020A449 /* WEvent.swift */; };
 		44CABDA0228860590020A449 /* EventLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9F228860590020A449 /* EventLocation.swift */; };
-		B43080415E364E25E66247CC /* Pods_Celebration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */; };
 		BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BB213AAB227F70E50028683F /* MapConfiguration.json */; };
 		BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */; };
 		BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */; };
@@ -43,7 +43,8 @@
 		44CABD9A2284CF6B0020A449 /* CountryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryKey.swift; sourceTree = "<group>"; };
 		44CABD9D2288604A0020A449 /* WEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEvent.swift; sourceTree = "<group>"; };
 		44CABD9F228860590020A449 /* EventLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocation.swift; sourceTree = "<group>"; };
-		7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
+		520727D0442FEAAC6F5B13F4 /* Pods_Celebration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celebration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		580053702C01FA047332A6C2 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
 		BB213AAB227F70E50028683F /* MapConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapConfiguration.json; sourceTree = "<group>"; };
 		BBEF0A93227E2086006FBEA3 /* Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celebration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +55,7 @@
 		BBF20454227F268B006CA419 /* JourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewController.swift; sourceTree = "<group>"; };
 		BBF20456227F26BB006CA419 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BBF20458227F275C006CA419 /* AppLaunchingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchingFlow.swift; sourceTree = "<group>"; };
-		CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celebration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA5C9F320FB282BD0F378486 /* Pods-Celebration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.release.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.release.xcconfig"; sourceTree = "<group>"; };
+		EDA42C1EAA0DE7738B0D6C23 /* Pods-Celebration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.release.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43080415E364E25E66247CC /* Pods_Celebration.framework in Frameworks */,
+				400974770A47447DE40CB4B8 /* Pods_Celebration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,10 +135,19 @@
 			path = Entites;
 			sourceTree = "<group>";
 		};
-		46B72AD7594E971DE3F82FC1 /* Frameworks */ = {
+		6D37F5B1EBA7CA7B410EEA8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCCB377AF44DA516C7333407 /* Pods_Celebration.framework */,
+				580053702C01FA047332A6C2 /* Pods-Celebration.debug.xcconfig */,
+				EDA42C1EAA0DE7738B0D6C23 /* Pods-Celebration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AED4C871968CFC3B7355BEA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520727D0442FEAAC6F5B13F4 /* Pods_Celebration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,8 +157,8 @@
 			children = (
 				BBEF0A95227E2086006FBEA3 /* Celebration */,
 				BBEF0A94227E2086006FBEA3 /* Products */,
-				D191EE28CF0F113D5F13440B /* Pods */,
-				46B72AD7594E971DE3F82FC1 /* Frameworks */,
+				6D37F5B1EBA7CA7B410EEA8B /* Pods */,
+				AED4C871968CFC3B7355BEA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,15 +237,6 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		D191EE28CF0F113D5F13440B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */,
-				EA5C9F320FB282BD0F378486 /* Pods-Celebration.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,12 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBEF0AA5227E2087006FBEA3 /* Build configuration list for PBXNativeTarget "Celebration" */;
 			buildPhases = (
-				6C15A32088869EF33336F263 /* [CP] Check Pods Manifest.lock */,
+				5FECEAD786CCE1B505CDF079 /* [CP] Check Pods Manifest.lock */,
 				BBEF0A8F227E2086006FBEA3 /* Sources */,
 				BBEF0A90227E2086006FBEA3 /* Frameworks */,
 				BBEF0A91227E2086006FBEA3 /* Resources */,
-				57BDE6CC5FA766FAFFDAA2DB /* [CP] Embed Pods Frameworks */,
-				C1860D64AD6842231D3CAA89 /* [CP] Copy Pods Resources */,
+				CFE2D2E9C80BB47575F3DE8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,29 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		57BDE6CC5FA766FAFFDAA2DB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Celebration/Pods-Celebration-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FloatingPanel/FloatingPanel.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatingPanel.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Celebration/Pods-Celebration-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C15A32088869EF33336F263 /* [CP] Check Pods Manifest.lock */ = {
+		5FECEAD786CCE1B505CDF079 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,7 +329,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1860D64AD6842231D3CAA89 /* [CP] Copy Pods Resources */ = {
+		CFE2D2E9C80BB47575F3DE8D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -532,18 +509,18 @@
 		};
 		BBEF0AA6227E2087006FBEA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CDA1D69CB69ACA72D22F027 /* Pods-Celebration.debug.xcconfig */;
+			baseConfigurationReference = 580053702C01FA047332A6C2 /* Pods-Celebration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,18 +529,18 @@
 		};
 		BBEF0AA7227E2087006FBEA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5C9F320FB282BD0F378486 /* Pods-Celebration.release.xcconfig */;
+			baseConfigurationReference = EDA42C1EAA0DE7738B0D6C23 /* Pods-Celebration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 33NM23R3BH;
 				INFOPLIST_FILE = Celebration/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = G.F.Oberemkov.Celebration;
+				PRODUCT_BUNDLE_IDENTIFIER = Eugene.Celebration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
