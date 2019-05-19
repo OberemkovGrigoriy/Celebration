@@ -21,6 +21,9 @@
 		44CABD9E2288604A0020A449 /* WEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9D2288604A0020A449 /* WEvent.swift */; };
 		44CABDA0228860590020A449 /* EventLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CABD9F228860590020A449 /* EventLocation.swift */; };
 		BB213AAC227F70E60028683F /* MapConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BB213AAB227F70E50028683F /* MapConfiguration.json */; };
+		BB4ED8202291D18F003C53D0 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4ED81F2291D18F003C53D0 /* EventsViewController.swift */; };
+		BB4ED8232291D38E003C53D0 /* FourthEventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4ED8222291D38E003C53D0 /* FourthEventsCollectionViewCell.swift */; };
+		BB4ED8252291D5B5003C53D0 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4ED8242291D5B5003C53D0 /* EventsViewModel.swift */; };
 		BBEF0A97227E2086006FBEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */; };
 		BBEF0A9E227E2087006FBEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */; };
 		BBEF0AA1227E2087006FBEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEF0A9F227E2087006FBEA3 /* LaunchScreen.storyboard */; };
@@ -46,6 +49,9 @@
 		520727D0442FEAAC6F5B13F4 /* Pods_Celebration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Celebration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		580053702C01FA047332A6C2 /* Pods-Celebration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Celebration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Celebration/Pods-Celebration.debug.xcconfig"; sourceTree = "<group>"; };
 		BB213AAB227F70E50028683F /* MapConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapConfiguration.json; sourceTree = "<group>"; };
+		BB4ED81F2291D18F003C53D0 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		BB4ED8222291D38E003C53D0 /* FourthEventsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthEventsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB4ED8242291D5B5003C53D0 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
 		BBEF0A93227E2086006FBEA3 /* Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celebration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF0A96227E2086006FBEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBEF0A9D227E2087006FBEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +158,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BB4ED81B2291D0E6003C53D0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ED81E2291D103003C53D0 /* EventsController */,
+				BB4ED81F2291D18F003C53D0 /* EventsViewController.swift */,
+				BB4ED81C2291D0F1003C53D0 /* EventDetails */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		BB4ED81C2291D0F1003C53D0 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventDetails;
+			sourceTree = "<group>";
+		};
+		BB4ED81E2291D103003C53D0 /* EventsController */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ED8212291D31F003C53D0 /* EventsViewCollectionCells */,
+			);
+			path = EventsController;
+			sourceTree = "<group>";
+		};
+		BB4ED8212291D31F003C53D0 /* EventsViewCollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				BB4ED8222291D38E003C53D0 /* FourthEventsCollectionViewCell.swift */,
+				BB4ED8242291D5B5003C53D0 /* EventsViewModel.swift */,
+			);
+			path = EventsViewCollectionCells;
+			sourceTree = "<group>";
+		};
 		BBEF0A8A227E2086006FBEA3 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +246,7 @@
 		BBF2044E227F2541006CA419 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BB4ED81B2291D0E6003C53D0 /* Events */,
 				BBF20451227F2580006CA419 /* Settings */,
 				BBF20450227F2574006CA419 /* Journey */,
 				BBF2044F227F254C006CA419 /* EventsMap */,
@@ -367,9 +408,12 @@
 				44CABD942284B8B10020A449 /* WEventsLocalJsonService.swift in Sources */,
 				BBF20455227F268B006CA419 /* JourneyViewController.swift in Sources */,
 				446EF0DD227F3F3D00B81696 /* GMSMarker+InitWithEvent.swift in Sources */,
+				BB4ED8252291D5B5003C53D0 /* EventsViewModel.swift in Sources */,
 				BBF20457227F26BB006CA419 /* SettingsViewController.swift in Sources */,
+				BB4ED8202291D18F003C53D0 /* EventsViewController.swift in Sources */,
 				446EF0E1227F51ED00B81696 /* TestIconView.swift in Sources */,
 				446EF0D9227F3B8E00B81696 /* Event.swift in Sources */,
+				BB4ED8232291D38E003C53D0 /* FourthEventsCollectionViewCell.swift in Sources */,
 				446EF0DB227F3C9700B81696 /* MockConstants.swift in Sources */,
 				BBF20459227F275C006CA419 /* AppLaunchingFlow.swift in Sources */,
 				44CABD9E2288604A0020A449 /* WEvent.swift in Sources */,

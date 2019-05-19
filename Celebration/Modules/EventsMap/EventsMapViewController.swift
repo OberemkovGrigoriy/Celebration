@@ -69,6 +69,10 @@ extension EventsMapViewController: GMSMapViewDelegate {
     }
     
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+        let controller = EventsViewController()
+        let eventsViewModel = EventsViewModel(elements: ["wef", "wef", "wfe", "wfe"])
+        controller.viewModel = eventsViewModel
+        present(controller, animated: true)
         return true
     }
     
